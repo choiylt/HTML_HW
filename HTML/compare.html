@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather API Analysis</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+  <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+    <div class="container-fluid">
+      <div class="navbar-header" style="padding:5px 15px 5px 15px;">
+        <a class="navbar-brand" href="index.html"><b><a href="index.html" style="color:white;font-size:30px;padding:5px;">Latitude</a></b>      </a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="temp.html">Max Temperature</a></li>
+            <li><a href="humid.html">Humidity</a></li>
+            <li><a href="cloud.html">Cloudiness</a></li>
+            <li><a href="wind.html">Wind Speed</a></li>
+          </ul>
+        </li>
+        <li><a href="compare.html">Comparison</a></li>
+        <li><a href="data.html">Data</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+<div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-10">
+      <div class="well" style=" float:left; height:100%; width: 100%">
+        <h1 style="color:#008080;">Comparison</h1>
+        <hr>
+        <div>
+            <a href="temp.html"><img src="fig1.png" height="50%" width="50%" style="float:left; padding:20px;"></a>
+            <a href="humid.html"><img src="fig2.png" height="50%" width="50%" style="float:right;padding:20px;"></a>
+            <br>
+            <a href="cloud.html"><img src="fig3.png" height="50%" width="50%" style="float:left;padding:20px;"></a>
+            <a href="wind.html"><img src="fig4.png" height="50%" width="50%" style="float:right;padding:20px;"></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    Copywrite @Richmond BootCamp
+  </div>
+</footer>
+
+</body>
+</html>
